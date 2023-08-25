@@ -21,5 +21,11 @@ The repository has different files, one for each data category (sleep, activitie
 For example, if I want to retrieve sleep information I must execute the following command in the Terminal : <br>
 `python getSleepData.py [initial date] [final date]`
 
-It will give a CSV file containing all the sleep data between the two dates (in format `DD-MM-YYYY`
+It will give a CSV file containing all the sleep data between the two dates (in format `DD-MM-YYYY`).
 
+Also to run the scripts, you must replace the `CLIENT_ID`and `CLIENT_SECRET` in the `getAuthorization()` functions by your informations available by creating a dev account in the FitBit website.
+
+Ressources that I used to develop these scripts : <br>
+https://github.com/orcasgit/python-fitbit
+https://towardsdatascience.com/using-the-fitbit-web-api-with-python-f29f119621ea
+https://dev.fitbit.com/build/reference/web-api/
